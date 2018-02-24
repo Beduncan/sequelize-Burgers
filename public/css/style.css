@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+}
+*{
+    text-align: center;
+    background-color: #c0c0c0;
+    }
+.jumbotron{
+	background-color: yellow;
+	
+}  
+.jumbo{
+	background-color: white;
+}  
+h1{	
+	font-color: #ffa500;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+.list{
+	background-color: #c0c0c0;
+	border: yellow 5px solid;
+}
+.button{
+	background-color: yellow;
+}
+.add{
+	font-size:30px;
+	font-weight: bolder;
+}
+.text{
+	width: 25%;
+}
