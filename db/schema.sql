@@ -1,6 +1,6 @@
-CREATE DATABASE burgers_db;
+CREATE DATABASE burgers_dbs;
 
-USE burgers_db;
+USE burgers_dbs;
 
 CREATE TABLE burgers (
 	id integer(50) auto_increment primary key,

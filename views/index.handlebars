@@ -17,9 +17,9 @@
           	<li class="list-group-item list">
           	   <p>ID: {{this.id}}</p>
                <p>Burger: {{this.burgers}}</p>
-               <form action="/update/{{id}}?_method=PUT" method="POST">
+               <form action="/update/{{id}}" method="POST">
                			<input type="hidden" name="id" type="text" value={{this.id}}>
-               			<button type="submit" class="btn btn-default btn-sm button" name="devoure">Devoure</button>
+               			<button type="submit" class="btn btn-default btn-sm button" name="devoured">Devoure</button>
         			</form>
           	</li>
           	{{/unless}}
