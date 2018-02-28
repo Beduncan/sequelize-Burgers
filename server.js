@@ -4,7 +4,6 @@ var methodOverride = require('method-override')
 
 //set up express app
 var app = express();
-var PORT = process.env.PORT || 3000;
 
 // set up the express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -24,6 +23,6 @@ app.use('/', router);
 //this is importing the css and images 
 
 //starts the server to began listening
-app.listen(PORT, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("App listening on PORT " + PORT);
 });
