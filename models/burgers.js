@@ -1,6 +1,5 @@
 module.exports = function (sequelize, DataTypes ) {
 	// body...
-
 var Burgers = sequelize.define("Burgers" ,{
   burgers: {
   	type: DataTypes.STRING,
@@ -9,8 +8,8 @@ var Burgers = sequelize.define("Burgers" ,{
   devoured: {
   	type: DataTypes.BOOLEAN,
   	allownull: false,
-},{
-  timestamps: false
+},
+  // timestamps: false
 });
-return Burgers
+return Burgers;
 };
