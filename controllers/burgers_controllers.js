@@ -14,7 +14,7 @@ router.get("/", function (req, res) {
 });
 router.get("/index", function(req, res){
 		//running selectAll from burgers
-   db.Burger.findAll({}).then(function(data) {
+   db.Burgers.findAll({}).then(function(data) {
         var hbsObject = { burgers : data }
         console.log(hbsObject);
         res.render('index', hbsObject);
@@ -22,7 +22,7 @@ router.get("/index", function(req, res){
 });
 //create a route to create a burger
 router.post("/new/burger", function(req, res){
-	 db.Burger.create({ burgers: req.body.burgerName }, 
+	 db.Burgers.create({ burgers: req.body.burgerName }, 
         { devoured: req.body.devoured }).then(function(data) {
         		console.log(req.body.burgerName);
 		// redirecting to the home page
@@ -31,7 +31,7 @@ router.post("/new/burger", function(req, res){
 });
 router.post('/update/:id', function (req, res) {
 	//calling updateOne from burgers.js
-    db.Burger.update({ devoured: true },{
+    db.Burgers.update({ devoured: true },{
         // fields: ['devoured'],
         where: { id: req.params.id }
     }).then(function(data) {
