@@ -1,7 +1,7 @@
 module.exports = function (sequelize, DataTypes ) {
 	// body...
 
-var Burgers = sequelize.define("burgers" ,{
+var Burgers = sequelize.define("Burgers" ,{
   burgers: {
   	type: DataTypes.STRING,
   	allownull: false,
