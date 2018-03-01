@@ -26,8 +26,8 @@ var db = require("./models")
 var PORT = process.env.PORT || 3000;
 
 //starts the server to began listening
-db.sync().then(function(){
+db.sequelize.sync().then(function(){
 	app.listen(process.env.PORT || 3000, function() {
-  // console.log("App listening on PORT " + PORT);
+  console.log("App listening on PORT " + PORT);
 	});
 });	
