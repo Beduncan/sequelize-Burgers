@@ -20,9 +20,14 @@ app.set("view engine", "handlebars");
 //link contoller
 var router = require("./controllers/burgers_controllers.js");
 app.use('/', router);
-//this is importing the css and images 
+
+var db = require("./models")
+
+var PORT = process.env.PORT || 3000;
 
 //starts the server to began listening
-app.listen(process.env.PORT || 3000, function() {
+db.sync().then(function(){
+	app.listen(process.env.PORT || 3000, function() {
   // console.log("App listening on PORT " + PORT);
-});
+	});
+});	
