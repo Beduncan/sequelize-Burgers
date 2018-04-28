@@ -5,5 +5,8 @@ USE burgers_dbs;
 CREATE TABLE burgers (
 	id integer(50) auto_increment primary key,
 	burgers VARCHAR(20) NOT NULL,
-	devoured BOOLEAN
+	devoured BOOLEAN,
+	createdAt VARCHAR(20),
+	updatedAt VARCHAR(20)
+
 );

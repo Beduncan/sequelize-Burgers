@@ -1,4 +1,6 @@
-INSERT INTO burgers (burgers);
-VALUE(Beef burger);
-VALUE(chicken burger);
-VALUE(dankest burger);
+INSERT INTO burgers (burgers)
+VALUE("BeefBurger");
+INSERT INTO burgers (burgers)
+VALUE("chickenBurger");
+INSERT INTO burgers (burgers)
+VALUE("dankestBurger")
