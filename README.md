@@ -18,7 +18,7 @@ npm i express bodyParser MethodOverride express-handlebars mysql2 --save
 ## Deployment
 
 This site is deploied on heroku 
-ADD YOUR LINK HERE 
+https://sheltered-everglades-96931.herokuapp.com/index
 
 ## Authors
 
