@@ -25,6 +25,8 @@ https://sheltered-everglades-96931.herokuapp.com/index
 * **Bryant Duncan** - *solo devolper* - [linkdin](https://www.linkedin.com/in/bryant-duncan/)
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Screen shots!!!
+![screenshot 8](https://user-images.githubusercontent.com/31356925/39392481-77914af8-4a6b-11e8-9443-afacd74e9ba6.png)
+![screenshot 9](https://user-images.githubusercontent.com/31356925/39392483-78b6f63a-4a6b-11e8-9886-d40cc80a3510.png)
+![screenshot 10](https://user-images.githubusercontent.com/31356925/39392484-798f08ae-4a6b-11e8-9847-894209e90118.png)
+![screenshot 11](https://user-images.githubusercontent.com/31356925/39392485-7a4e3ca6-4a6b-11e8-8c74-db2d2e2749d8.png)
