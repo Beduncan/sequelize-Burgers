@@ -1,5 +1,5 @@
 # SequelizeBurgers
-This app is a spin-off of eat deez burgers. It allows users to create a burger of their choosing and add it to a MySql database. The user then can choose to eat any burgers that have been created to put them in a separate list of eaten burgers. This application utilizes Express, Handlebars, and the MySql ORM Sequelize. 
+This app is a spin-off of eat deez burgers. It allows users to create a burger of their choosing and add it to a MySql database. The user then can choose to eat any burgers that have been created to put them in a separate list of eaten burgers. This app was created with Express and also uses the templating engine handlebars. This app is also connected to Mysql with its ORM Sequelize.
 
 ## Getting Started
 
